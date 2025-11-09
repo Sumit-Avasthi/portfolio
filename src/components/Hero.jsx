@@ -1,4 +1,5 @@
 import Typewriter from "typewriter-effect";
+import newImg from "../assets/new.png"; 
 
 export default function Hero() {
   return (
@@ -46,7 +47,7 @@ export default function Hero() {
           <div
             className="w-[280px] sm:w-[350px] h-[360px] sm:h-[420px] bg-[#FF9257] border border-white/80 rounded-2xl shadow-[0_0_25px_rgba(0,0,0,0.6)] overflow-hidden relative flex flex-col justify-end p-6 text-left lg:absolute lg:top-1/2 lg:left-1/2 lg:-translate-x-1/2 lg:-translate-y-1/2 hover:scale-105 duration-700 ease-out"
             style={{
-              backgroundImage: "url('new.png')", // 🧡 replace with your photo path
+              backgroundImage: `url(${newImg})`, // 🧡 replace with your photo path
               backgroundSize: "110%",
               backgroundPosition: "center bottom",
             }}
