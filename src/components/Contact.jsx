@@ -22,13 +22,13 @@ export default function Contact() {
 
     emailjs
       .send(
-        "service_skbzrli",
-        "template_mcua8ri",
+        import.meta.env.VITE_SERVICE_ID,
+        import.meta.env.VITE_TEMPLATE_ID,
         {
           ...formData,
           to_email: "sumitavasthi.28@gmail.com",
         },
-        "SmGe0S_5KaErH0rvf"
+        import.meta.env.VITE_PUBLIC_KEY
       )
       .then(
         () => {
