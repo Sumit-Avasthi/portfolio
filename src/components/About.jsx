@@ -135,6 +135,7 @@ export default function About() {
         <div className="max-w-5xl w-full">
           {/* Controls */}
           
+          {/* SUMIT*/} 
 
           {/* Scrollable Skill Columns */}
           <div
