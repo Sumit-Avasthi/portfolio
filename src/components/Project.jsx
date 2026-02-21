@@ -8,7 +8,7 @@ export default function Project() {
       image: "calci.png",
       description: "A fully functional calculator application built with clean logic implementation and responsive UI design. It supports standard arithmetic operations, real-time display updates, and error handling. This project demonstrates strong understanding of DOM manipulation, event handling, and structured JavaScript logic.",
       github: "https://github.com/Sumit-Avasthi/CALCULATOR.git",
-      live: "https://calculator-qpq1bu48e-sumit-avasthis-projects.vercel.app/",
+      live: "https://calculator-three-sandy-81.vercel.app/",
     },
     {
       title: "Spotify Clone",
