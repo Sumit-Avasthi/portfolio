@@ -4,7 +4,12 @@ export default function Navbar() {
   const [isOpen, setIsOpen] = useState(false);
 
   return (
-    <nav className="fixed top-0 right-0 z-50 w-full bg-transparent text-white font-[Poppins]">
+    <nav className="fixed top-0 w-full z-50
+  bg-black/40
+  backdrop-blur-lg
+  border-b border-white/5
+  shadow-[0_4px_20px_rgba(0,0,0,0.5)]
+  transition-all duration-300">
       <div className="flex justify-end items-center p-4 md:pr-10">
         {/* Desktop Menu */}
         <ul className="hidden md:flex gap-10 text-lg font-medium items-center">
@@ -17,6 +22,7 @@ export default function Navbar() {
                   hover:border-[#FF5B01] hover:bg-[#FF5B01]/10
                   hover:text-[#FF5B01]
                   transition-all duration-300 ease-in-out
+                  text-white
                 "
               >
                 {item}

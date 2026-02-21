@@ -1,5 +1,5 @@
 import Typewriter from "typewriter-effect";
-import newImg from "../assets/new.png"; 
+import newImg from "../assets/Extra.jpeg"; 
 
 export default function Hero() {
   return (
