@@ -4,8 +4,9 @@ export default function SkillsBubbles() {
   const skills = [
     "C++", "Python", "JavaScript", "React",
     "Tailwind", "Node.js", "Express",
-    "MySQL", "Git", "Linux",
-    "REST APIs", "DSA", "System Design"
+    "MySQL", "Git",
+    "REST APIs", "DSA", 
+    "Data Cleaning","Data Analysis","Data Visualization"
   ];
 
   return (
