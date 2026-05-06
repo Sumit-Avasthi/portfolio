@@ -34,7 +34,7 @@ export default function Navbar() {
           <li>
             <a
               href="/resume.pdf" // 🔗 replace this with your actual resume file path or Google Drive link
-              download="Sumit_Avasthi_Resume.pdf"
+              download="2301641540184_Sumit Avasthi1.pdf"
               className="
                 px-5 py-2 rounded-lg border-2 border-[#FF5B01]
                 text-[#FF5B01] font-semibold

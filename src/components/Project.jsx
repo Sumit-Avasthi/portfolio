@@ -4,6 +4,13 @@ import { useState } from "react";
 export default function Project() {
   const projects = [
     {
+      title: "WandersHub",
+      image: "Screenshot 2026-05-06 113112.png",
+      description: "WanderHub is a full-stack web application inspired by Airbnb that I built using Node.js, Express, and MongoDB. Users can register and log in, create travel property listings with images, edit or delete their own listings, and leave reviews. I structured the app using the MVC (Model-View-Controller) pattern to keep the codebase organized and scalable.",
+      github: "https://github.com/Sumit-Avasthi/WanderHub",
+      live: "https://wanderhub-ktzo.onrender.com/listings",
+    },
+    {
       title: "Calculator",
       image: "calci.png",
       description: "A fully functional calculator application built with clean logic implementation and responsive UI design. It supports standard arithmetic operations, real-time display updates, and error handling. This project demonstrates strong understanding of DOM manipulation, event handling, and structured JavaScript logic.",
@@ -18,9 +25,9 @@ export default function Project() {
       live: "https://spotify-clone-eight-neon.vercel.app/",
     },
     {
-      title: "Comming Soon..!!!",
+      title: "Comming Soon",
       image: "/project3.jpg",
-      description: "..............................Comming Soon .................!!!!!",
+      description: "Comming Soon",
       github: "https://github.com/yourusername/task-api",
       live: "https://task-api-live.com",
     },
