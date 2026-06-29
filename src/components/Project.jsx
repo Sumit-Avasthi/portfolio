@@ -11,6 +11,20 @@ export default function Project() {
       live: "https://wanderhub-ktzo.onrender.com/listings",
     },
     {
+      title: "AI SPAM DETECTION",
+      image: "Screenshot 2026-06-29 084254.png",
+      description: "Built a Flask-based AI Spam Detection System that classifies SMS messages as Spam or Not Spam using Machine Learning and Natural Language Processing. The project uses TF-IDF Vectorization with a Logistic Regression model optimized using GridSearchCV and features a modern, responsive web interface deployed on Render.",
+      github: "https://github.com/Sumit-Avasthi/SPAM-DETECTION-SYSTEM",
+      live: "https://spam-detection-system-bii9.onrender.com/",
+    },
+    {
+      title: "Algerian-forest-fires-FWI-Prediction-Model",
+      image: "Screenshot 2026-06-29 084727.png",
+      description: "Developed a machine learning web application to predict the Forest Fire Weather Index (FWI) using environmental and meteorological data from the Algerian Forest Fires dataset. Built with Python, Flask, Scikit-learn, and deployed with an interactive web interface for real-time predictions.",
+      github: "https://github.com/Sumit-Avasthi/Algerian-forest-fires-FWI-Prediction-Model",
+      live: "http://algerian-forest-fires-fwi-predic-env.eba-8pkg2kty.ap-south-1.elasticbeanstalk.com/",
+    },
+    {
       title: "Calculator",
       image: "calci.png",
       description: "A fully functional calculator application built with clean logic implementation and responsive UI design. It supports standard arithmetic operations, real-time display updates, and error handling. This project demonstrates strong understanding of DOM manipulation, event handling, and structured JavaScript logic.",
@@ -23,14 +37,7 @@ export default function Project() {
       description: "A fully responsive Spotify clone that replicates the core UI and functionality of a modern music streaming platform. It includes interactive playback controls, dynamic song lists, smooth transitions, and a pixel-perfect dark theme design. Built to strengthen frontend architecture, UI structuring, and component-based development skills.",
       github: "https://github.com/Sumit-Avasthi/SPOTIFY-CLONE.git",
       live: "https://spotify-clone-eight-neon.vercel.app/",
-    },
-    {
-      title: "Comming Soon",
-      image: "/project3.jpg",
-      description: "Comming Soon",
-      github: "https://github.com/yourusername/task-api",
-      live: "https://task-api-live.com",
-    },
+    }
   ];
 
   const [index, setIndex] = useState(0);
